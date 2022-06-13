@@ -1,0 +1,70 @@
+body{
+	background: url(bgimage.jpg);
+	background-repeat: no-repeat;  
+	background-attachment: fixed; 
+	background-size: cover;
+	
+}
+
+nav{
+	height: 40px;
+	background: rgba(0, 204, 0, 0.0);
+	margin: auto;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	float: right;
+	margin: 10px;
+	font-size: 25px;
+}
+
+nav ul li:hover{
+	background: red;
+}
+
+.container{
+	clear: right;
+	width: 1000px;
+	background: white;
+	height: 1000px;
+	margin: auto; 
+	margin-top: 40px;
+}
+
+.banner{
+	/*height: 300px;
+	background: purple;*/
+	background-image: url(light.jpg);
+	background-repeat: no-repeat;
+}
+
+.banner.bannertitle{
+	position: absolute;
+	top: 50px;
+}
+
+.banner h4{
+
+	}
+
+.content{
+	margin: auto 60px auto 60px;
+}
+
+.content p:first-letter{
+	font-size: 50px;
+}
+
+
+
+
+
+
